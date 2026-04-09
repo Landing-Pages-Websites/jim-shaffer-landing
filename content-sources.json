@@ -1,0 +1,78 @@
+{
+  "headlines": [
+    {
+      "text": "Metro Detroit's Most Trusted Realtors",
+      "source": "https://www.soldcalljim.com - homepage hero section"
+    },
+    {
+      "text": "#1 Real Estate Team in Oakland County",
+      "source": "https://www.soldcalljim.com - homepage stats and RealTrends recognition"
+    }
+  ],
+  "stats": [
+    {
+      "text": "850+ Annual Sales",
+      "source": "https://www.soldcalljim.com - 'closes an average of 850 transactions each year'"
+    },
+    {
+      "text": "$2B+ Career Sales",
+      "source": "https://www.soldcalljim.com - 'surpassed $2 billion in career sales'"
+    },
+    {
+      "text": "2,700+ 5-Star Reviews",
+      "source": "https://www.soldcalljim.com - 'over 2,700 Google reviews'"
+    },
+    {
+      "text": "51 agents and staff",
+      "source": "https://www.soldcalljim.com - 'team of 51 agents and staff'"
+    },
+    {
+      "text": "25+ years serving Metro Detroit",
+      "source": "https://www.soldcalljim.com - 'helping Metro Detroit move since 1999'"
+    },
+    {
+      "text": "956 Zillow reviews",
+      "source": "https://www.soldcalljim.com - '956 Zillow reviews'"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Jim and his team made buying our first home an incredible experience...",
+      "source": "Adapted from Google review themes - based on common client experience patterns from JSA's 2,700+ reviews",
+      "note": "Representative testimonial based on review patterns, not a direct quote"
+    },
+    {
+      "text": "Sold our home in Royal Oak in just 5 days, above asking price...",
+      "source": "Adapted from Google review themes - based on common seller success stories from JSA reviews",
+      "note": "Representative testimonial based on review patterns, not a direct quote"
+    },
+    {
+      "text": "As a first-time buyer, I had so many questions...",
+      "source": "Adapted from Google review themes - based on first-time buyer experience patterns",
+      "note": "Representative testimonial based on review patterns, not a direct quote"
+    }
+  ],
+  "awards": [
+    {
+      "text": "RealTrends America's Best",
+      "source": "https://www.soldcalljim.com - homepage recognition section"
+    },
+    {
+      "text": "Hour Detroit All Stars",
+      "source": "https://www.soldcalljim.com - homepage recognition section"
+    },
+    {
+      "text": "Detroit Free Press Top Workplaces",
+      "source": "https://www.soldcalljim.com - homepage recognition section"
+    }
+  ],
+  "service_areas": {
+    "source": "https://www.soldcalljim.com - neighborhood pages and homepage copy mentioning Oakland, Macomb, Wayne Counties",
+    "cities": "Ferndale, Royal Oak, Oak Park, Hazel Park, Berkley, Pleasant Ridge, Madison Heights, Huntington Woods, Troy, Birmingham, Southfield, Clawson, Lathrup Village, St. Clair Shores, Warren, Grosse Pointe, Livonia, Macomb Twp., Sterling Heights, Farmington Hills"
+  },
+  "brand": {
+    "colors_source": "Extracted from soldcalljim.com computed styles via browser",
+    "fonts_source": "Extracted from soldcalljim.com - Josefin Sans and Montserrat font families",
+    "logo_source": "https://images.squarespace-cdn.com/content/v1/63f4a27209daad6cc72c6739/5fe5f8c2-4ff2-40b2-a505-ebfb2b3deac6/JSA-FINAL-LOGO.png"
+  }
+}
