@@ -161,9 +161,9 @@ function QuoteIcon({ className = "w-8 h-8" }: { className?: string }) {
 /* ------------------------------------------------------------------ */
 function LeadForm({ variant = "hero" }: { variant?: "hero" | "bottom" }) {
   const { status, errorMessage, submitLead, reset } = useMegaLeadForm({
-    siteId: "PLACEHOLDER_SITE_ID",
+    siteId: "801d6c22-681d-4880-ae6b-7ed377eb7cf0",
     customerId: "f1e8bf02-6761-48b1-a810-8264822affc5",
-    siteKey: "PLACEHOLDER_SITE_KEY",
+    siteKey: "sk_k8g0bijw_4adq0gds87c",
   });
 
   const handleSubmit = useCallback(

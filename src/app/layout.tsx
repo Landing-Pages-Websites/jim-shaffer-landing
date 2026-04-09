@@ -36,8 +36,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const SITE_ID = "PLACEHOLDER_SITE_ID";
-  const SITE_KEY = "PLACEHOLDER_SITE_KEY";
+  const SITE_ID = "801d6c22-681d-4880-ae6b-7ed377eb7cf0";
+  const SITE_KEY = "sk_k8g0bijw_4adq0gds87c";
 
   return (
     <html
