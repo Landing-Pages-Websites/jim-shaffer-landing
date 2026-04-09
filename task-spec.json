@@ -1,0 +1,52 @@
+{
+  "client": "Jim Shaffer and Associates",
+  "atlas_task_id": "154c7e71-1897-4a98-a80f-27cc832e98a0",
+  "asana_task_gid": "1213971509729197",
+  "customer_id": "f1e8bf02-6761-48b1-a810-8264822affc5",
+  "website": "https://www.soldcalljim.com",
+  "industry": "real-estate",
+  "service": "Real Estate - Buying & Selling Homes",
+  "ad_platform": "google",
+  "geo": "Metro Detroit, MI (Oakland, Macomb, Wayne Counties)",
+  "phone_routing_number": "(248) 219-3782",
+  "notification_emails": ["jessica@jsarealtors.com"],
+  "form_fields": [
+    { "name": "name", "type": "text", "required": true, "label": "Full Name" },
+    { "name": "email", "type": "email", "required": true, "label": "Email Address" },
+    { "name": "phone", "type": "tel", "required": true, "label": "Phone Number" },
+    { "name": "address", "type": "text", "required": false, "label": "Property Address" },
+    { "name": "message", "type": "textarea", "required": false, "label": "How can we help?" }
+  ],
+  "brand": {
+    "primary_color": "#EE604B",
+    "secondary_color": "#1F2B44",
+    "accent_color": "#F6C316",
+    "warm_peach": "#FDC294",
+    "teal": "#8ED3CF",
+    "body_text": "#422E29",
+    "logo_url": "https://images.squarespace-cdn.com/content/v1/63f4a27209daad6cc72c6739/5fe5f8c2-4ff2-40b2-a505-ebfb2b3deac6/JSA-FINAL-LOGO.png?format=1500w",
+    "favicon_url": "https://images.squarespace-cdn.com/content/v1/63f4a27209daad6cc72c6739/4ff30942-1f48-4c03-8588-56fb067f1438/favicon.ico",
+    "display_font": "Josefin Sans",
+    "body_font": "Montserrat"
+  },
+  "trust_signals": {
+    "ranked_1_oakland_county": true,
+    "transactions_per_year": "850+",
+    "career_sales": "$2B+",
+    "team_size": "51 agents and staff",
+    "google_reviews": "2,700+",
+    "google_rating": "5.0",
+    "zillow_reviews": "956",
+    "years_in_business": "25+",
+    "founded": 1999,
+    "awards": ["RealTrends America's Best", "Hour Detroit All Stars", "Detroit Free Press Top Workplaces"]
+  },
+  "key_differentiators": [
+    "#1 ranked real estate team in Oakland County",
+    "850+ transactions closed annually",
+    "Over $2 billion in career sales",
+    "2,700+ five-star Google reviews",
+    "Full 51-person team with specialized agents",
+    "Serving Metro Detroit since 1999"
+  ]
+}
