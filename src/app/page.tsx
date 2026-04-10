@@ -189,7 +189,7 @@ function LeadForm({ variant = "hero" }: { variant?: "hero" | "bottom" }) {
           We Got Your Message!
         </h3>
         <p className="text-text-muted">
-          A JSA buyer specialist will reach out shortly about private and off-market home opportunities.
+          A member of our team will reach out shortly. We can&apos;t wait to help you with your real estate goals!
         </p>
         <button
           onClick={reset}
@@ -244,19 +244,19 @@ function LeadForm({ variant = "hero" }: { variant?: "hero" | "bottom" }) {
         <label htmlFor={`address-${variant}`} className="sr-only">Property Address</label>
         <input
           id={`address-${variant}`}
-          name="targetArea"
+          name="address"
           type="text"
-          placeholder="Target City or Neighborhood (optional)"
+          placeholder="Property Address (optional)"
           className="w-full rounded-xl border border-border bg-white px-4 py-3.5 text-text-primary placeholder:text-text-light transition-all duration-200 hover:border-primary/40 focus:border-primary"
         />
       </div>
       <div>
-        <label htmlFor={`message-${variant}`} className="sr-only">What are you looking for?</label>
+        <label htmlFor={`message-${variant}`} className="sr-only">How can we help?</label>
         <textarea
           id={`message-${variant}`}
-          name="buyerCriteria"
+          name="message"
           rows={3}
-          placeholder="What are you looking for? (optional)"
+          placeholder="How can we help? (optional)"
           className="w-full rounded-xl border border-border bg-white px-4 py-3.5 text-text-primary placeholder:text-text-light transition-all duration-200 hover:border-primary/40 focus:border-primary resize-none"
         />
       </div>
@@ -346,12 +346,12 @@ export default function HomePage() {
               </div>
 
               <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
-                Unlock Off-Market Homes
-                <span className="block text-primary mt-1">in Metro Detroit</span>
+                Metro Detroit&apos;s Most
+                <span className="block text-primary mt-1">Trusted Realtors</span>
               </h1>
 
               <p className="text-lg sm:text-xl text-white/80 leading-relaxed max-w-xl">
-                Get access to homes before they hit the public market. Jim Shaffer & Associates helps serious buyers find private, coming-soon, and off-market opportunities across Oakland, Macomb, and Wayne Counties.
+                Whether you&apos;re buying your first home, selling to upgrade, or exploring the market, our team of 51 agents has the expertise and local knowledge to get you the best results.
               </p>
 
               {/* Trust Bar */}
@@ -394,10 +394,10 @@ export default function HomePage() {
               <div className="rounded-2xl bg-white p-6 sm:p-8 shadow-2xl border border-white/10">
                 <div className="text-center mb-6">
                   <h2 className="font-display text-2xl font-bold text-secondary">
-                    Request Private Home Access
+                    Start Your Real Estate Journey
                   </h2>
                   <p className="text-text-muted mt-1.5 text-sm">
-                    Tell us your buy box. A local specialist will follow up with next steps.
+                    Connect with a local expert today. Free, no-obligation consultation.
                   </p>
                 </div>
                 <LeadForm variant="hero" />
@@ -480,10 +480,10 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16 animate-on-scroll">
             <span className="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">
-              How Private Home Access Works
+              How It Works
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary leading-tight">
-              Three Steps to Hidden Inventory
+              Three Steps to Real Estate Success
             </h2>
           </div>
 
@@ -558,7 +558,7 @@ export default function HomePage() {
                     "Access to off-market listings and new inventory",
                     "Mortgage assistance with preferred lender connections",
                     "Skilled negotiation to get you the best deal",
-                    "Offer positioning across 74+ Metro Detroit areas",
+                    "Neighborhood expertise across 74+ Metro Detroit areas",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <CheckCircleIcon className="w-5 h-5 text-teal flex-shrink-0 mt-0.5" />
