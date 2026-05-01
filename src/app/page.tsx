@@ -346,13 +346,34 @@ export default function HomePage() {
               </div>
 
               <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
-                Metro Detroit&apos;s Most
-                <span className="block text-primary mt-1">Trusted Realtors</span>
+                Real Estate Agent
+                <span className="block text-primary mt-1">in Oakland County, MI</span>
               </h1>
 
               <p className="text-lg sm:text-xl text-white/80 leading-relaxed max-w-xl">
-                Whether you&apos;re buying your first home, selling to upgrade, or exploring the market, our team of 51 agents has the expertise and local knowledge to get you the best results.
+                Jim Shaffer &amp; Associates provides <strong className="text-white">home buying</strong>, <strong className="text-white">home selling</strong>, and <strong className="text-white">real estate consultation</strong> across Oakland, Macomb, and Wayne Counties. Our team of 51 agents has closed 850+ transactions annually and holds 2,700+ five-star Google reviews.
               </p>
+
+              {/* Service keyword tiles */}
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-1">
+                {[
+                  "Buy a Home",
+                  "Sell a Home",
+                  "Free Home Valuation",
+                  "First-Time Buyers",
+                  "Investment Properties",
+                  "Off-Market Listings",
+                ].map((label) => (
+                  <a
+                    key={label}
+                    href="#hero"
+                    className="flex items-center gap-1.5 rounded-lg bg-white/10 border border-white/20 px-3 py-2 text-sm text-white/90 hover:bg-white/20 transition-colors"
+                  >
+                    <CheckCircleIcon className="w-4 h-4 text-accent flex-shrink-0" />
+                    {label}
+                  </a>
+                ))}
+              </div>
 
               {/* Trust Bar */}
               <div className="flex flex-wrap gap-6 sm:gap-8 pt-2">
@@ -386,6 +407,12 @@ export default function HomePage() {
                 <span className="text-sm text-white/70">
                   Rated 5.0 on Google (2,700+ reviews)
                 </span>
+              </div>
+
+              {/* Geographic trust line */}
+              <div className="flex items-center gap-2 text-sm text-accent font-semibold">
+                <MapPinIcon className="w-4 h-4 flex-shrink-0" />
+                <span>Serving Royal Oak, Troy, Birmingham, Ferndale &amp; all of Metro Detroit</span>
               </div>
             </div>
 
